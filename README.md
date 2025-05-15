@@ -1,19 +1,28 @@
 # Emotion-detection-from-poetry-with-glove-and-cnn-bilstm
 
 
-This project uses Glove nad CNN BiLSTM to detect emotions in short poetic or expressive texts. The model can classify text into six basic emotions: sadness, joy, love, anger, fear, and surprise.
+# Poetry Emotion Detection Using CNN + BiLSTM
 
-## Dataset
-We use the [Emotion Dataset by Dair-ai](https://huggingface.co/datasets/dair-ai/emotion) hosted on Hugging Face. This dataset consists of thousands of short English texts annotated with emotional labels.
+This project uses a deep learning model (CNN + BiLSTM) to detect emotions in poetry text.
 
-## Features
-- Text preprocessing
-- Tokenization and vectorization
-- Model training using scikit-learn or deep learning
-- Evaluation using metrics like accuracy and F1-score
+## 📁 Dataset
 
-## Setup Instructions
+- Source: [Kaggle – Emotion Dataset](https://www.kaggle.com/datasets/kaushal2896/emotion-dataset)
+- Download it and place it in `data/poetry_emotion_dataset.csv`
+
+## 🧠 Model
+
+- Embedding Layer
+- 1D Convolutional Layer
+- Bidirectional LSTM
+- Global Max Pooling
+- Dense Softmax Output
+
+## 🛠 Requirements
+
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
-python main.py
+
+
