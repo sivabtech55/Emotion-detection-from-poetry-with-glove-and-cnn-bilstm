@@ -1,20 +1,19 @@
 # Emotion-detection-from-poetry-with-glove-and-cnn-bilstm
-# Sentiment Analysis using NLP
+# Emotion Detection from Poetry using NLP
 
-This project performs sentiment analysis on text data using Natural Language Processing (NLP) techniques. It can classify text into positive, negative, or neutral sentiments.
-
-## Features
-- Data preprocessing
-- Tokenization
-- Model training (e.g., Logistic Regression, Naive Bayes)
-- Accuracy and performance evaluation
+This project uses Natural Language Processing (NLP) to detect emotions in short poetic or expressive texts. The model can classify text into six basic emotions: sadness, joy, love, anger, fear, and surprise.
 
 ## Dataset
-We used the [IMDb Movie Reviews Dataset](https://ai.stanford.edu/~amaas/data/sentiment/) for training and testing.
+We use the [Emotion Dataset by Dair-ai](https://huggingface.co/datasets/dair-ai/emotion) hosted on Hugging Face. This dataset consists of thousands of short English texts annotated with emotional labels.
+
+## Features
+- Text preprocessing
+- Tokenization and vectorization
+- Model training using scikit-learn or deep learning
+- Evaluation using metrics like accuracy and F1-score
 
 ## Setup Instructions
 
 ```bash
 pip install -r requirements.txt
 python main.py
-
