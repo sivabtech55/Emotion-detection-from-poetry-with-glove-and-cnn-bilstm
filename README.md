@@ -1,7 +1,7 @@
 # Emotion-detection-from-poetry-with-glove-and-cnn-bilstm
-# Emotion Detection from Poetry using NLP
 
-This project uses Natural Language Processing (NLP) to detect emotions in short poetic or expressive texts. The model can classify text into six basic emotions: sadness, joy, love, anger, fear, and surprise.
+
+This project uses Glove nad CNN BiLSTM to detect emotions in short poetic or expressive texts. The model can classify text into six basic emotions: sadness, joy, love, anger, fear, and surprise.
 
 ## Dataset
 We use the [Emotion Dataset by Dair-ai](https://huggingface.co/datasets/dair-ai/emotion) hosted on Hugging Face. This dataset consists of thousands of short English texts annotated with emotional labels.
