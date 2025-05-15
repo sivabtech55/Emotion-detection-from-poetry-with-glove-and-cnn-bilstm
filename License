@@ -1,0 +1,12 @@
+
+---
+
+## 📁 File: `requirements.txt`
+```text
+numpy
+pandas
+scikit-learn
+nltk
+matplotlib
+transformers
+datasets
