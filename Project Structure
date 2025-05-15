@@ -1,0 +1,7 @@
+main.py: Entry point of the application
+
+utils/: Preprocessing and helper functions
+
+models/: Model building and evaluation
+
+data/: Contains the dataset (not uploaded here due to size)
